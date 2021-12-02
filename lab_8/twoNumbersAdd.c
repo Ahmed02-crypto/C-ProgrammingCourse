@@ -9,6 +9,8 @@ int main(){
     
     printf("ikinci sayı giriniz : ");
     scanf("%d",&b);
-
+    
+    int c = a + b;
+    printf("Sum is:%d", c);
     return 0;
 }
